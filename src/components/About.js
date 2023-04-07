@@ -9,7 +9,7 @@ function About() {
       <div className="border dark:border-gray-800 mt-20 rounded-lg mx-auto dark:bg-[#192132bb] ">
         <Isolate />
         <div className="w-full lg:flex sm:grid md:grid p-10">
-          <div className="lg:w-[70%] sm:w-full">
+          <div className="lg:w-[70%] sm:w-full z-10">
             <h1 className="text-3xl font-bold">About me</h1>
             <p className="mt-5 ">
               I am Rezzak Ali, a web developer and I have completed my
