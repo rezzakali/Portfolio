@@ -5,7 +5,6 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { BiSun } from 'react-icons/bi';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { HiMoon } from 'react-icons/hi';
-// import Logo from '../assets/logo.svg';
 import styles from '../styles/Header.module.css';
 
 const Navbar = () => {
@@ -22,18 +21,13 @@ const Navbar = () => {
   }
 
   return (
-    <div className="w-full absolute px-10 mx-auto">
-      <div className="bg-[#f0f5f9] dark:bg-[#0d1323] opacity-95 px-10 h-[80px] flex items-center justify-between fixed top-0 left-0 right-0 z-20">
+    <div className="w-full absolute px-10 mx-auto ">
+      <div className="bg-[#f0f5f9]  dark:bg-[#22262f] opacity-95 px-10 h-[80px] flex items-center justify-between fixed top-0 left-0 right-0 z-20 shadow">
         <Link href="/">
           <h3
             className={`text-xl sm:text-lg lg:text-2xl md:text-2xl text-[#023047] cursor-pointer dark:text-[#f2f2f3] ${styles.header_brand_name}`}
           >
             Rezzak A.
-            {/* <Image
-              src={Logo}
-              alt="logo"
-              style={{ width: '100%', height: '100%' }}
-            /> */}
           </h3>
         </Link>
         <div>
@@ -72,9 +66,9 @@ const Navbar = () => {
           <div className="flex items-center justify-center">
             <div className="md:hidden" onClick={() => setShowNav(!showNav)}>
               {showNav ? (
-                <AiOutlineClose className="text-black dark:text-[#33a9df] cursor-pointer" />
+                <AiOutlineClose className="text-black dark:text-white cursor-pointer" />
               ) : (
-                <GiHamburgerMenu className="text-black dark:text-[#33a9df] cursor-pointer" />
+                <GiHamburgerMenu className="text-black dark:text-white cursor-pointer" />
               )}
             </div>
           </div>
@@ -83,7 +77,7 @@ const Navbar = () => {
       <div
         className={
           showNav
-            ? 'bg-[#f0f5f9] dark:bg-[#0d1323] opacity-95 px-4 fixed z-50'
+            ? 'bg-[#f0f5f9] dark:bg-[#232630] opacity-95 px-4 fixed z-50'
             : 'absolute left-[-100%]'
         }
       >

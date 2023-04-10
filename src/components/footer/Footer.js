@@ -6,7 +6,7 @@ import Social from './Social';
 
 function Footer() {
   return (
-    <div className="bg-[#f0f6f9] dark:bg-[#192132bb] px-10 bottom-0 mt-20 pt-10">
+    <div className="bg-[#eeeff259] dark:bg-[#34384270] px-10 bottom-0 mt-20 pt-10">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div>
           <Link href="/">
