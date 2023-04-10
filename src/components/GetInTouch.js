@@ -1,7 +1,7 @@
 function GetInTouch() {
   return (
-    <div className="mt-20 mx-auto rounded-lg bg-[#f0f6f9] dark:bg-[#192132bb] p-10 border dark:border-gray-800">
-      <h1 className="text-4xl text-[#023047] font-bold text-center dark:text-white">
+    <div className="mt-20 mx-auto rounded-lg bg-[#eeeff259]  dark:bg-[#34384270] p-10 border dark:border-gray-800">
+      <h1 className="text-4xl font-bold text-center dark:text-white">
         Describe your project & requirements
       </h1>
       <p className="text-center text-xl mt-7 dark:text-[#e2e8f0]">
@@ -13,9 +13,9 @@ function GetInTouch() {
         </button>
       </div>
       <p className="text-center mt-7">
-        Or mail me at{' '}
+        Or mail me at
         <a
-          className="text-[#023047] dark:text-[#e2e8f0]"
+          className="dark:text-[#e2e8f0]"
           href="mailto: myrezzakalirk@gmail.com"
         >
           <strong> myrezzakalirk@gmail.com </strong>
