@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 function ProjectCard({ data }) {
   const { title, thumbnail, liveLink, sourceCodeLink, technologies } = data;
@@ -14,18 +15,22 @@ function ProjectCard({ data }) {
       <div className="flex justify-between my-3">
         <h1 className="text-md">{title}</h1>
         <div className="items-center justify-between">
-          <button
+          <Link
             className="border dark:border-[#34384270] px-2 rounded mx-2"
-            src={liveLink}
+            href={`${liveLink}`}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Live
-          </button>
-          <button
+          </Link>
+          <Link
             className="border dark:border-[#34384270] px-2 rounded"
-            src={sourceCodeLink}
+            href={`${sourceCodeLink}`}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Source
-          </button>
+          </Link>
         </div>
       </div>
     </div>
