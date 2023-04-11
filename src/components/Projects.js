@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 function Projects() {
   return (
     <>
-      <div className="mt-20 mx-auto">
+      <div className="mx-auto">
         <h1 className="dark:text-white text-center text-3xl font-bold">
           Projects
         </h1>
@@ -15,8 +15,8 @@ function Projects() {
         </p>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
-        {projectsData.map((data) => (
-          <ProjectCard key={data.id} data={data} />
+        {projectsData.map((data, id) => (
+          <ProjectCard key={id} data={data} />
         ))}
       </div>
     </>
