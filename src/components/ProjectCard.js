@@ -1,22 +1,27 @@
 import Image from 'next/image';
 
 function ProjectCard({ data }) {
-  const { title, thumbnail, liveLink, sourceCodeLink } = data;
+  const { title, thumbnail, liveLink, sourceCodeLink, technologies } = data;
 
   return (
     <div className="border dark:border-[#34384270]  rounded-lg mx-auto p-3 hover:shadow-md">
       <Image src={thumbnail} alt={title} />
-      <div className="flex justify-between mt-10 mb-3">
-        <h1 className="text-2xl">{title}</h1>
+      {technologies.map((tech, id) => (
+        <div key={id} className="inline-flex py-2 ">
+          <p className="border dark:border-[#34384270] rounded px-2">{tech}</p>
+        </div>
+      ))}
+      <div className="flex justify-between my-3">
+        <h1 className="text-md">{title}</h1>
         <div className="items-center justify-between">
           <button
-            className="border dark:border-[#34384270]   px-2 py-1 rounded mx-2"
+            className="border dark:border-[#34384270] px-2 rounded mx-2"
             src={liveLink}
           >
             Live
           </button>
           <button
-            className="border dark:border-[#34384270]   px-2 py-1 rounded"
+            className="border dark:border-[#34384270] px-2 rounded"
             src={sourceCodeLink}
           >
             Source

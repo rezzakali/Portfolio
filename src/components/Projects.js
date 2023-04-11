@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 function Projects() {
   return (
     <>
-      <div className="mt-20 mx-auto">
+      <div className="mx-auto">
         <h1 className="dark:text-white text-center text-3xl font-bold">
           Projects
         </h1>
