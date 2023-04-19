@@ -5,9 +5,7 @@ function Projects() {
   return (
     <>
       <div className="mx-auto">
-        <h1 className="dark:text-white text-center text-3xl font-bold">
-          Projects
-        </h1>
+        <h1 className="text-center text-3xl font-bold">Projects</h1>
         <p className="text-center mt-5">
           I have worked on a multitude of projects, ranging from small-scale{' '}
           <br />
