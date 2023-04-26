@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "file-loader": "^6.2.0",
     "next": "13.2.4",
     "next-themes": "^0.2.1",
     "react": "18.2.0",

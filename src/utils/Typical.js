@@ -8,8 +8,6 @@ const TypicalComponent = () => {
         6000,
         'React Developer!',
         6000,
-        'MERN Stack Developer!',
-        5000,
         'Self Learner!',
         2000,
         'Front-end Developer!',

@@ -1,4 +1,5 @@
 import careerImage from '../assets/projects/career.png';
+import chatAppImage from '../assets/projects/chat-app-redux.png';
 import domImage from '../assets/projects/dom.png';
 import fitnessImage from '../assets/projects/fitness.png';
 import netflixImage from '../assets/projects/netflix.png';
@@ -8,6 +9,14 @@ import youtubeCloneImage from '../assets/projects/youtube.png';
 const projectsData = [
   {
     id: 1,
+    title: 'Chat App',
+    sourceCodeLink: 'http://github.com/rezzakali/Chat-App-Redux',
+    liveLink: '#',
+    thumbnail: chatAppImage,
+    technologies: ['Vite', 'Redux Toolkit', 'RTQ Query', 'JSON-Server'],
+  },
+  {
+    id: 2,
     title: 'React Quiz App',
     sourceCodeLink: 'https://github.com/rezzakali/react-quiz-app-with-firebase',
     liveLink: 'https://react-vite-quiz-app.netlify.app',
@@ -15,7 +24,7 @@ const projectsData = [
     technologies: ['Vite', 'React', 'Firebase'],
   },
   {
-    id: 2,
+    id: 3,
     title: 'YouTube Clone',
     sourceCodeLink: 'https://github.com/rezzakali/YouTube-Clone',
     liveLink: 'https://youtube-clone-10d.netlify.app',
@@ -23,7 +32,7 @@ const projectsData = [
     technologies: ['React'],
   },
   {
-    id: 3,
+    id: 4,
     title: 'Career',
     sourceCodeLink: 'https://github.com/rezzakali/educavo-project',
     liveLink: 'https://educavo-pro.netlify.app',
@@ -31,7 +40,7 @@ const projectsData = [
     technologies: ['HTML', 'CSS'],
   },
   {
-    id: 4,
+    id: 5,
     title: 'DOM Operation',
     sourceCodeLink: 'https://dom-manipulate-project.netlify.app',
     liveLink: 'https://github.com/rezzakali/dom-manipulation-project',
@@ -39,7 +48,7 @@ const projectsData = [
     technologies: ['HTML', 'CSS', 'JS'],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Fitness',
     sourceCodeLink: 'https://github.com/rezzakali/html-project-one',
     liveLink: 'https://fitness-club-fb.netlify.app',
@@ -47,7 +56,7 @@ const projectsData = [
     technologies: ['HTML', 'CSS'],
   },
   {
-    id: 6,
+    id: 7,
     title: 'Netflix Clone',
     sourceCodeLink: 'https://github.com/rezzakali/netflix_clone',
     liveLink: 'https://netflix-clone-demo1.netlify.app',
