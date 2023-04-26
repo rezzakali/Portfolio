@@ -9,7 +9,9 @@ function ProjectCard({ data }) {
       <Image src={thumbnail} alt={title} />
       {technologies.map((tech, id) => (
         <div key={id} className="inline-flex py-2 ">
-          <p className="border dark:border-[#34384270] rounded px-2">{tech}</p>
+          <p className="border dark:border-[#34384270] rounded px-2 mx-1">
+            {tech}
+          </p>
         </div>
       ))}
       <div className="flex justify-between my-3">

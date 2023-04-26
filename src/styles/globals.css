@@ -14,6 +14,9 @@
     --scroll-behavior: smooth !important;
     scroll-behavior: smooth !important;
   }
+  ::selection {
+    background-color: rgba(48, 212, 212, 0.185);
+  }
 }
 
 /* for loading while dom rendering */
