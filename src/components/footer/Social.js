@@ -34,11 +34,11 @@ function Social() {
       </div>
       <div className="my-4 hover:text-[#023047]  dark:hover:text-gray-300">
         <Link
-          href="https://dev.to/rezzakali"
+          href="https://www.linkedin.com/in/rezzak"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          Dev.to
+          LinkedIn
         </Link>
       </div>
     </>
