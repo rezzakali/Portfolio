@@ -22,7 +22,7 @@ function ProjectCard({ data }) {
         </div>
       ))}
 
-      <p>{description}</p>
+      <p className="text-justify">{description}</p>
 
       <div className="flex justify-between my-3">
         <h1 className="text-md">{title}</h1>
