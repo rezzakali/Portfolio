@@ -2,7 +2,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 function ProjectCard({ data }) {
-  const { title, thumbnail, liveLink, sourceCodeLink, technologies } = data;
+  const {
+    title,
+    thumbnail,
+    liveLink,
+    sourceCodeLink,
+    technologies,
+    description,
+  } = data;
 
   return (
     <div className="border dark:border-[#34384270]  rounded-lg mx-auto p-3 hover:shadow-md">
@@ -14,6 +21,9 @@ function ProjectCard({ data }) {
           </p>
         </div>
       ))}
+
+      <p>{description}</p>
+
       <div className="flex justify-between my-3">
         <h1 className="text-md">{title}</h1>
         <div className="items-center justify-between">
