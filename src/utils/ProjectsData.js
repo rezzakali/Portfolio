@@ -19,7 +19,7 @@ const projectsData = [
     technologies: [
       'React Vite',
       'Redux Toolkit',
-      'RTQ Query',
+      'RTK Query',
       'Node Express',
       'MongoDB',
       'JWT',
