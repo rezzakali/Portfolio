@@ -25,7 +25,7 @@ function ProjectCard({ data }) {
       <p className="text-justify">{description}</p>
 
       <div className="flex justify-between my-3">
-        <h1 className="text-md">{title}</h1>
+        <h1 className="text-md font-bold">{title}</h1>
         <div className="items-center justify-between">
           <Link
             className="border dark:border-[#34384270] px-2 rounded mx-2"

@@ -28,6 +28,10 @@ module.exports = {
     },
 
     extend: {},
+
+    fontFamily: {
+      Lato: ['Lato', 'sans-serif'],
+    },
   },
   plugins: [require('tailwindcss-hero-patterns')],
 };
