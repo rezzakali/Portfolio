@@ -31,7 +31,7 @@ const projectsData = [
     id: 2,
     title: 'Chat App',
     description:
-      'Using Vite as the build tool, Redux Toolkit for state management, RTQ Query for data fetching, and JSON-Server as a mock API, I created a chat application with efficient development workflow, simplified state management, seamless data retrieval, and simulated backend interactions.',
+      'Using Vite as the build tool, Redux Toolkit for state management, RTK Query for data fetching, and JSON-Server as a mock API, I created a chat application with efficient development workflow, simplified state management, seamless data retrieval, and simulated backend interactions.',
     sourceCodeLink: 'http://github.com/rezzakali/Chat-App-Redux',
     liveLink: '#',
     thumbnail: chatAppImage,
