@@ -35,7 +35,7 @@ const projectsData = [
     sourceCodeLink: 'http://github.com/rezzakali/Chat-App-Redux',
     liveLink: '#',
     thumbnail: chatAppImage,
-    technologies: ['Vite', 'Redux Toolkit', 'RTQ Query', 'JSON-Server'],
+    technologies: ['Vite', 'Redux Toolkit', 'RTK Query', 'JSON-Server'],
   },
   {
     id: 3,
