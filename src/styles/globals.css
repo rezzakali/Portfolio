@@ -4,33 +4,32 @@
 
 @layer base {
   body {
-    @apply dark:bg-[#0e1628] text-[#0f172a] dark:text-[#e2e8f0] overflow-x-hidden;
+    @apply bg-[#f6f7f8] dark:bg-[#22262e] text-[#23272f] dark:text-[#f6f7f9ce] overflow-x-hidden;
     @apply min-h-screen;
   }
   li {
-    @apply px-4 hover:bg-[#1f2937] hover:text-white py-1 my-2 mx-2;
+    @apply px-4 hover:bg-[#333a4556] hover:text-white py-1 my-2 mx-2;
   }
   html {
     --scroll-behavior: smooth !important;
     scroll-behavior: smooth !important;
   }
+  ::selection {
+    background-color: rgba(48, 212, 212, 0.185);
+  }
 }
 
-/* 
-::-webkit-scrollbar {
-  width: 15px;
-  height: 20px;
+/* for loading while dom rendering */
+#globalLoader {
+  position: fixed;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-
-::-webkit-scrollbar-track {
-  background: #f1f6f9;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #1e293b;
-  border: 1px solid #f6f7ed;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #3d5477;
-} */

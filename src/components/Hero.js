@@ -9,7 +9,7 @@ function Hero() {
   return (
     <>
       <Isolate />
-      <div className="grid md:grid-cols-2 lg:grid-cols-2 mx-auto px-12 pt-10 justify-center dark:heropattern-hideout-gray-500/10 heropattern-hideout-gray-500/10 bg-[#eff6ff3b] dark:bg-[#0e1628] border-b border-[#eff6ff] dark:border-gray-800 py-6 z-100 text-center">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 mx-auto px-12 pt-10 justify-center dark:heropattern-hideout-gray-500/10 heropattern-hideout-gray-500/10 bg-[#eff6ff3b] dark:bg-[#23272f] border-b border-[#eff6ff] dark:border-[#343842] py-6 z-100 text-center">
         <div className="w-1/2 sm:w-full justify-center sm:block sm:place-items-center md:text-left sm:text-center mt-5 pt-10">
           <h1>
             Hey There 👋 I am <br />

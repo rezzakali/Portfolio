@@ -9,18 +9,29 @@ function index() {
   return (
     <>
       <Hero />
-      <div className="container mx-auto">
-        <Services />
-        <span id="projects" className="scroll-mt-36">
+      <div className="mx-auto">
+        <div className=" dark:bg-[#191b21] px-10 py-5">
+          <Services />
+        </div>
+        <div
+          className="dark:bg-[#1b1e25] px-10 py-5 scroll-mt-36"
+          id="projects"
+        >
           <Projects />
-        </span>
-        <Tools />
-        <span id="about" className="scroll-mt-32">
-          <About />
-        </span>
-        <span id="contact" className="scroll-mt-36">
-          <GetInTouch />
-        </span>
+        </div>
+        <div className="dark:bg-[#1b1e25] px-10 py-5">
+          <Tools />
+        </div>
+        <div className="px-10">
+          <span id="about" className="scroll-mt-32">
+            <About />
+          </span>
+        </div>
+        <div className="px-10">
+          <span id="contact" className="scroll-mt-36">
+            <GetInTouch />
+          </span>
+        </div>
       </div>
     </>
   );

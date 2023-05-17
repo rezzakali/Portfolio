@@ -1,30 +1,37 @@
 import Link from 'next/link';
-import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
-import { FaFacebook } from 'react-icons/fa';
+import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 function SocialAbout() {
   return (
     <div className="text-3xl flex gap-4 my-10 absolute">
       <Link
+        href="https://www.linkedin.com/in/rezzak"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaLinkedin size={22} />
+      </Link>
+      <Link
         href="https://github.com/rezzakali"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <AiFillGithub size={30} />
+        <FaGithubSquare size={22} />
       </Link>
       <Link
         href="https://www.facebook.com/rezzakali22"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaFacebook size={30} />
+        <AiFillFacebook size={24} />
       </Link>
       <Link
         href="https://www.instagram.com/rezzak134"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <AiFillInstagram size={30} />
+        <AiFillInstagram size={25} />
       </Link>
     </div>
   );
