@@ -13,7 +13,7 @@ function GetInTouch() {
         </button>
       </div>
       <p className="text-center mt-7">
-        Or touch on discord
+        Or touch on
         <a
           className="dark:text-[#e2e8f0]"
           href="https://discordapp.com/users/0538"
