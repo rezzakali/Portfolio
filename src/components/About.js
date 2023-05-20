@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import lwsCerImage from '../assets/LWS-Certificate.jpg';
+import LWSRecommendationLetterImage from '../assets/LWS-Recommendation-Letter.jpg';
 import aboutImage from '../assets/about.webp';
 import Isolate from '../utils/Isolate';
 import SocialAbout from '../utils/SocialAbout';
@@ -36,6 +38,27 @@ function About() {
           <div className="lg:w-[30%] sm:w-full sm:text-center sm:mt-10">
             <Image src={aboutImage} alt="about_me" className="object-right" />
           </div>
+        </div>
+      </div>
+
+      <div className="flex justify-items-center mt-5 gap-2">
+        <div>
+          <Image
+            src={lwsCerImage}
+            alt="LWS-Certificate"
+            width="100%"
+            height="600"
+            className="border dark:border-gray-800 object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={LWSRecommendationLetterImage}
+            alt="LWS-Recommendation-Letter"
+            width="100%"
+            height="600"
+            className="border dark:border-gray-800 object-cover"
+          />
         </div>
       </div>
     </div>
