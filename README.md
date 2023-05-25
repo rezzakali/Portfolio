@@ -26,10 +26,12 @@ Rezzak Ali (Web Developer)
 
 ## 🔗 Connect With Me:
 
-Facebook:https://www.facebook.com/coder.rezzak
+Facebook: https://www.facebook.com/coder.rezzak
 <br />
-Instagram:https://www.instagram.com/coder.rezzak
+Instagram: https://www.instagram.com/coder.rezzak
 <br />
-LinkedIn:https://www.linkedin.com/in/rezzak
+LinkedIn: https://www.linkedin.com/in/rezzak
+<br/>
+Discord: https://discord.com/users/0538
 
 ---
