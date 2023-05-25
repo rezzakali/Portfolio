@@ -1,7 +1,5 @@
 **Portfolio - Showcasing my Next.js and Tailwind CSS Mastery**
 
-<div>
-<p style="text-align: justify">
 Welcome to my portfolio! Here, I present a stunning showcase of my expertise in Next.js and Tailwind CSS, combining the power of cutting-edge frontend technologies to create captivating web experiences.
 
 🌟 Crafted with Next.js: Utilizing the industry-leading React framework, my portfolio demonstrates seamless navigation, dynamic rendering, and optimized performance. Next.js empowers me to build fast, scalable, and SEO-friendly web applications, ensuring an exceptional user experience.
@@ -22,9 +20,7 @@ Welcome to my portfolio! Here, I present a stunning showcase of my expertise in 
 
 📬 Contact Me: If you have any questions, project proposals, or simply want to connect, feel free to reach out to me. All my contact information is available on my portfolio.
 
-Thank you for visiting, and I look forward to connecting with you! </p>
-
-</div>
+Thank you for visiting, and I look forward to connecting with you!
 
 Rezzak Ali (Web Developer)
 
