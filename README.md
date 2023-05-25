@@ -22,7 +22,7 @@ Welcome to my portfolio! Here, I present a stunning showcase of my expertise in 
 
 Thank you for visiting, and I look forward to connecting with you!
 
-[Rezzak Ali]
+Rezzak Ali (Web Developer)
 
 ## 🔗 Connect With Me:
 
