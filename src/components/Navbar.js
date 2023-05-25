@@ -16,13 +16,20 @@ const Navbar = () => {
     setMounted(true);
   }, []);
 
+  useEffect(() => {
+    window.addEventListener(
+      'resize',
+      () => window.innerWidth >= 960 && setShowNav(false)
+    );
+  }, []);
+
   if (!mounted) {
     return null;
   }
 
   return (
     <div className="w-full absolute px-10 mx-auto ">
-      <div className="bg-[#f0f5f9]  dark:bg-[#22262f] opacity-95 px-10 h-[80px] flex items-center justify-between fixed top-0 left-0 right-0 z-20 shadow">
+      <div className="bg-[#fdfeff]  dark:bg-[#22262f] opacity-95 px-10 h-[80px] flex items-center justify-between fixed top-0 left-0 right-0 z-50">
         <Link href="/">
           <h3
             className={`text-xl sm:text-lg lg:text-2xl md:text-2xl text-[#023047] cursor-pointer dark:text-[#f2f2f3] ${styles.header_brand_name}`}
@@ -77,7 +84,7 @@ const Navbar = () => {
       <div
         className={
           showNav
-            ? 'bg-[#f0f5f9] dark:bg-[#232630] opacity-95 px-4 fixed z-50'
+            ? 'bg-[#fdfeff] dark:bg-[#232630] opacity-95 px-4 fixed z-50'
             : 'absolute left-[-100%]'
         }
       >
