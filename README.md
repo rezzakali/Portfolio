@@ -26,8 +26,10 @@ Thank you for visiting, and I look forward to connecting with you!
 
 ## 🔗 Connect With Me:
 
-[https://www.facebook.com/coder.rezzak]
-[https://www.instagram.com/coder.rezzak]
-[https://www.linkedin.com/in/rezzak]
+Facebook:[https://www.facebook.com/coder.rezzak]
+<br />
+Instagram:[https://www.instagram.com/coder.rezzak]
+<br />
+LinkedIn:[https://www.linkedin.com/in/rezzak]
 
 ---
