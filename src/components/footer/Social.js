@@ -7,7 +7,7 @@ function Social() {
 
       <div className="my-4 hover:text-[#023047]  dark:hover:text-gray-300">
         <Link
-          href="https://www.facebook.com/rezzakali22"
+          href="https://www.facebook.com/coder.rezzak"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
@@ -16,7 +16,7 @@ function Social() {
       </div>
       <div className="my-4 hover:text-[#023047]  dark:hover:text-gray-300">
         <Link
-          href="https://www.instagram.com/rezzak134"
+          href="https://www.instagram.com/coder.rezzak"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >

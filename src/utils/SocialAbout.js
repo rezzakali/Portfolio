@@ -20,14 +20,14 @@ function SocialAbout() {
         <FaGithubSquare size={22} />
       </Link>
       <Link
-        href="https://www.facebook.com/rezzakali22"
+        href="https://www.facebook.com/coder.rezzak"
         target="_blank"
         rel="noopener noreferrer"
       >
         <AiFillFacebook size={24} />
       </Link>
       <Link
-        href="https://www.instagram.com/rezzak134"
+        href="https://www.instagram.com/coder.rezzak"
         target="_blank"
         rel="noopener noreferrer"
       >

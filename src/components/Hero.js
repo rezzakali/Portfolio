@@ -14,7 +14,7 @@ function Hero() {
           <div>
             Currently Learning{' '}
             <button className="border border-gray-400 dark:border-gray-700 rounded-full dark:hover:border-gray-500 z-50 sm:mt-4 px-3">
-              TypeScript
+              Next.js
             </button>
           </div>
           <h1 className="mt-3">
